@@ -1,3 +1,7 @@
+/* La clase Persona, representa a un individuo que interactura en una tienda de frutas.
+
+@author Diana Carolina Reyes
+ */
 import java.util.Date;
 
 public class Persona {
@@ -8,13 +12,14 @@ public class Persona {
   protected Date dateBirth;
   public float   height;
 
+  // Se crea constructor de la clase persona
   public Persona(String name, String lastname1, String lastName2){
     this.name = name;
     this.lastName1 = lastname1;
     this.lastName2 = lastName2;
   }
 
-
+//Se crean los métodos set y get de acuerdo al diagrama sugerido en la actividad
   public void setName(String name) {
     this.name = name;
   }
@@ -23,6 +28,7 @@ public class Persona {
     return name;
   }
 
+  // Se crean los métodos get y set para obtener la fecha de cumpleaños de la persona
   public Date getDateBirth() {
     return dateBirth;
   }
@@ -35,6 +41,7 @@ public class Persona {
   }
   }
 
+  //Se crea el método para mostrar la información de la persona
   void printPersona(){
     if(dateBirth != null){
     System.out.println("Nombre: " + name + " Apellidos: " + lastName1 + " " +lastName2 + " Fecha de cumpleanos: " + dateBirth);
