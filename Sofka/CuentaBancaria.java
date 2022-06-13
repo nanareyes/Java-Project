@@ -1,3 +1,8 @@
+/** La clase Fruta, representa la mercancia para la venta de una tienda de frutas.
+
+@author Diana Carolina Reyes
+ */
+
 public class CuentaBancaria {
   Integer accountNumber;
   Boolean activated;

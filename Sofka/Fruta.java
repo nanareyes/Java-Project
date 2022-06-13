@@ -1,4 +1,4 @@
-/* La clase Fruta, representa la mercancia para la venta de una tienda de frutas.
+/** La clase Fruta, representa la mercancia para la venta de una tienda de frutas.
 
 @author Diana Carolina Reyes
  */

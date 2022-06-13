@@ -26,8 +26,6 @@ public class MainSofka {
     Cliente cliente2 = new Cliente("Fredy", "Reyes", "Mantilla", "CC3786400002");
     cliente2.setName("Diana");
     cliente2.printPersona();
-
-
   }
 
 }

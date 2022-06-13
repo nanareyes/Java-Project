@@ -1,4 +1,4 @@
-/* La clase Pago, representa el metodo de pago usado tienda de frutas.
+/** La clase Pago, representa el metodo de pago usado tienda de frutas.
 
 @author Diana Carolina Reyes
  */
